@@ -25,7 +25,9 @@
                  tryCount = tryCount + 1;        
          }
   
-         printf("You got it! Nice job! It only took you %d tries!\n", tryCount);
+	 if (tryCount = 1) {
+		  printf("You got it! Nice job! It only took you %d try!\n", tryCount);
+	 } else printf("You got it! Nice job! It only took you %d tries!\n", tryCount);
                          
          return 0;
 }
